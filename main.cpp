@@ -3,6 +3,6 @@
 
 int main(){
     // main_solv_quadratic_equation();
-    main_polynomial_division_algorithm();
+    mainPolynomialDivisionAlgorithm();
     return 0;
 }
