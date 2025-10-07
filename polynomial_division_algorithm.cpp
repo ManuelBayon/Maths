@@ -145,7 +145,6 @@ void mainPolynomialDivisionAlgorithm(){
     string header = "\nEnter numerator polynomial (e.g. 2x^3 + 4x - 5) : ";
     string numerator_input = inputPolynomial(header);
     const vector<Monomial> numerator_monomials = parseMonomials(numerator_input);
-    printPolynomial(numerator_monomials, "Numerator input");
 
     // Denominator input
     header = "Enter denominator polynomial (e.g. 2x^3 + 4x - 5) :";
